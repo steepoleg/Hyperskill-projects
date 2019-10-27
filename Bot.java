@@ -17,8 +17,5 @@ public class Bot {
         char[] chars = age.toCharArray();
         int ageFinish = ( (chars[0] - '0') * 70 + (chars[2] - '0') * 21 + (chars[4] - '0') * 15) % 105;
         System.out.println("Your age is " + ageFinish + "; that's a good time to start programming!");
-	System.out.println("A little change");
-	System.out.println("Second little change");
-	System.out.println("Second little change");
     }
 }
